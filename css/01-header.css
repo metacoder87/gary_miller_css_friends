@@ -1,2 +1,6 @@
 /* PHASE 1: Header */
-
+body {
+display: inline-flex;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+}
