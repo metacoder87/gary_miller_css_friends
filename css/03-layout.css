@@ -1,6 +1,5 @@
 /* PHASE 3: Layout */
 .content {
-    min-height: 200px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -15,9 +14,11 @@
     border-right: 1px solid #ccc;
     padding: 20px;
     padding-right: 19px;
+    min-height: 200px;
 }
 
 .content-main {
     width: 620px;
     padding: 20px;
+    min-height: 200px;
 }
