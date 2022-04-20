@@ -6,3 +6,42 @@
     background: black;
     border-radius: 50%;
 }
+
+li:hover .badge {
+    background: red;
+}
+
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+.header-list > li {
+    position: relative;
+}
+
+.header-notifications {
+    position: absolute;
+    display: none;
+    left: -1px;
+    font-size: 14px;
+    white-space: nowrap;
+    border: 1px solid whitesmoke;
+    border-top: none;
+    overflow: hidden;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+li:hover .header-notifications {
+    display: block;
+}
+
+.header-notifications > li {
+    border-top: 1px solid whitesmoke;
+    color: black;
+}
+
+.header-notifications > li:hover {
+    background: whitesmoke;
+}
